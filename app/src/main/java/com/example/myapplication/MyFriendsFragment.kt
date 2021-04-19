@@ -7,8 +7,8 @@ import android.view.ViewGroup
 import androidx.annotation.Nullable
 import androidx.fragment.app.Fragment
 
-class MyFriendsFragment :Fragment(){
-    override fun onCreate(savedInstanceState: Bundle?){
+class MyFriendsFragment : Fragment(){
+    override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
     }
 
@@ -16,12 +16,11 @@ class MyFriendsFragment :Fragment(){
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View?{
-        return inflater.inflate(R.layout.fragment_my_friends, container ,false)
+    ): View? {
+        return inflater.inflate(R.layout.fragment_my_friends,container,false)
     }
 
-    override fun onViewCreated(view: View, @Nullable savedInstanceState: Bundle?){
+    override fun onViewCreated(view: View,@Nullable savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
     }
-
 }
